@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#8F8682" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#B3A7A1" />
+
+     <EditText
+         android:id="@+id/edit_key"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Please enter the key."
+         android:inputType="textPassword" >
+
+            <requestFocus />
+        </EditText>
+
+     <CheckBox
+         android:id="@+id/chck_key"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Show Key" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+       
+
+        <Button
+            android:id="@+id/keyok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/keycancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="CANCEL" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#8F8682" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#B3A7A1" />
+
+</LinearLayout>
